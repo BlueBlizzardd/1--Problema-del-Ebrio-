@@ -5,7 +5,7 @@ let res = 1;
 
 if(sims > 0) {
     for(let i = 0; i < sims; i++) {
-        res = res * (16 / 441);
+      res = res * (16 / 221);
     }
 
     html.innerHTML = `La probabilidad resultante es de ${res.toString()} o ${(res*100).toFixed(10).toString()}%`;
